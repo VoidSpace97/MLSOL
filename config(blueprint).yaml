@@ -1,0 +1,48 @@
+# ------------------------------------------------------------------------------
+# DATABASE CONFIGURATION
+# ------------------------------------------------------------------------------
+
+database-online:
+  host: ""
+  port: 
+  user: ""
+  password: ""
+  name: ""
+
+#--------------------------------------------------------------
+# SYMBOL CONFIGURATION
+# ------------------------------------------------------------------------------
+
+symbols:
+  - "SOL/USDC"  # List of trading pairs to support (primary + expansion)
+
+# ------------------------------------------------------------------------------
+# BINANCE API (OPTIONAL FOR LIVE/PAPER TRADING)
+# ------------------------------------------------------------------------------
+
+binance:
+  api_key: ""
+  api_secret: ""
+  use_testnet: false  # If true, use Binance testnet for order placement
+
+# ------------------------------------------------------------------------------
+# MODEL SETTINGS
+# ------------------------------------------------------------------------------
+
+model:
+  target_symbol: "SOL/USDC"
+
+  features:
+    ohlcv_window: 90
+    orderbook_levels: 10
+    target_horizon: 30
+    threshold: 0.0020
+
+# ------------------------------------------------------------------------------
+# TRADING PARAMETERS (USED FOR PAPER OR LIVE TRADING)
+# ------------------------------------------------------------------------------
+
+trading:
+  initial_usdc: 1000             # Initial amount of USDC to start trading with
+  initial_sol: 0                 # Initial amount of SOL to start trading with
+  fee_percent: 0.2

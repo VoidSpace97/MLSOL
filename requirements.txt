@@ -1,0 +1,14 @@
+# requirements.txt for the Scalping Trading System
+
+lightgbm
+numpy
+pandas
+pyyaml
+optuna
+plotly
+matplotlib
+scikit-learn
+sqlalchemy
+psycopg2-binary
+ccxt
+
