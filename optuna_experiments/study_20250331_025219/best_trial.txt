@@ -1,0 +1,15 @@
+Best trial: 36
+Best F1: 0.5023277321359536
+Params:
+  threshold_buy: 0.002629759902316255
+  threshold_sell: 0.002148589746716762
+  target_horizon: 18
+  learning_rate: 0.01613400816660102
+  num_leaves: 92
+  max_depth: 3
+  min_data_in_leaf: 100
+  lambda_l1: 0.2802901436244059
+  lambda_l2: 0.9333292433152796
+  feature_fraction: 0.6311743763129807
+  bagging_fraction: 0.7690325714362991
+  bagging_freq: 9
